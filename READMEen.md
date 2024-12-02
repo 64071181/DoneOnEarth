@@ -47,20 +47,24 @@
 ## **Call for Investors and Partners**  
   We are seeking:  
 
-  1. **Investors**  
+  1. **Investors**
+     
     - Angel investors, venture capital firms, and technology incubators willing to support our mission with financial backing.  
 
-  2. **Corporate Partners**  
-    ### Companies specializing in the following domains:  
-      - **Aerospace and Drone Technology**: Expertise in flight systems, navigation, and communications.  
-      - **Energy and Solar Power**: Advanced solutions for solar energy collection and transmission.  
-      - **Mining and Refinement**: Proven capabilities in resource extraction and material refinement.  
-      - **IoT and Data Analytics**: Tools for monitoring equipment and managing resources.  
+  3. **Corporate Partners**
+     
+  ### Companies specializing in the following domains:  
+  
+  - **Aerospace and Drone Technology**: Expertise in flight systems, navigation, and communications.  
+  - **Energy and Solar Power**: Advanced solutions for solar energy collection and transmission.  
+  - **Mining and Refinement**: Proven capabilities in resource extraction and material refinement.  
+  - **IoT and Data Analytics**: Tools for monitoring equipment and managing resources.  
 
   ### Collaborative opportunities include:  
-    - Joint R&D initiatives.      
-    - Resource and patent sharing.  
-    - Co-development of groundbreaking solutions.  
+  
+  - Joint R&D initiatives.      
+  - Resource and patent sharing.  
+  - Co-development of groundbreaking solutions.  
 
 ---
 
@@ -69,6 +73,7 @@
   #### **Target Amount:** $10 million  
 
   #### **Usage Breakdown:**  
+  
   - Drone technology development and commercialization: 30%  
   - Asteroid mining prototype testing and trials: 40%  
   - Energy recovery and solar transmission R&D: 20%  
@@ -89,7 +94,9 @@
   This is more than an investment; it is a chance to be part of humanity's next great leap. We invite you to collaborate, innovate, and bring the dream of a Dyson bubble to reality. Together, we can unlock the infinite potential of our solar system.  
 
 ## **Contact Us:**  
+
   - Email: moksurky@gmail.com
+  - 
   - whatsapp: +852 64071181
 
 **done on earth — Building the future, one step at a time.**  
