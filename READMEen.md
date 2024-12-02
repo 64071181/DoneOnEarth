@@ -41,7 +41,7 @@
 ---
 
 
-## **Why Invest in On Ground Systems?**  
+## **Why Invest in done on earth?**  
 
   - **Innovative Vision:** Transformative technologies that redefine energy utilization and resource extraction.  
 
