@@ -106,7 +106,7 @@
 
   - Email: moksurky@gmail.com
   - 
-  - whatsapp: +852 64071181
+  - whatsapp : [+852 64071181](https://wa.me/85264071181/?text=Query%20done%20on%20earth%20plan)
 
 **done on earth — Building the future, one step at a time.**  
 
