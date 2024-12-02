@@ -2,7 +2,12 @@
 # **done on earth : Revolutionizing Energy and Resource Utilization in Space**  
 
 ## **Our Mission:**
-  To achieve 100% energy recycling within our solar system and return 99% of its generated value to contributors, while retaining only 1% for operational sustainability. Our ultimate goal is to construct a **Dyson bubble System**, capturing and utilizing the vast energy resources of our solar system, propelling humanity toward an energy-abundant future.
+
+  To achieve 100% energy recycling within our solar system and return 99% of its generated value to contributors,
+  
+  while retaining only 1% for operational sustainability. Our ultimate goal is to construct a **Dyson bubble System**, 
+  
+  capturing and utilizing the vast energy resources of our solar system, propelling humanity toward an energy-abundant future.
 
 ---
 
@@ -15,12 +20,16 @@
 
   - These drones will serve as revenue generators to fund early-stage R&D while laying the foundation for future space exploration technologies.  
 
+  --
+  
   2. **Asteroid Mining Technology**  
 
   - Exploration and extraction of rare earth minerals from asteroids, tapping into a trillion-dollar industry.  
 
   - The acquired resources will fund the next phase and advance technologies in communications, landing systems, refining processes, and mineral recovery—crucial for subsequent missions.  
 
+  --
+  
   3. **Energy Recovery and Resource Transmission**  
 
   - Deployment of drones to transport energy recovery equipment to asteroids.  
@@ -49,7 +58,7 @@
 
   1. **Investors**
      
-    - Angel investors, venture capital firms, and technology incubators willing to support our mission with financial backing.  
+  - Angel investors, venture capital firms, and technology incubators willing to support our mission with financial backing.  
 
   3. **Corporate Partners**
      
