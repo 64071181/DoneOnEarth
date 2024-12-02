@@ -11,23 +11,23 @@
 
   1. **Development of Advanced Drone Technology**  
 
-    - Creation of high-efficiency drones for use in logistics, agriculture, and environmental monitoring.  
+  - Creation of high-efficiency drones for use in logistics, agriculture, and environmental monitoring.  
 
-    - These drones will serve as revenue generators to fund early-stage R&D while laying the foundation for future space exploration technologies.  
+  - These drones will serve as revenue generators to fund early-stage R&D while laying the foundation for future space exploration technologies.  
 
   2. **Asteroid Mining Technology**  
 
-    - Exploration and extraction of rare earth minerals from asteroids, tapping into a trillion-dollar industry.  
+  - Exploration and extraction of rare earth minerals from asteroids, tapping into a trillion-dollar industry.  
 
-    - The acquired resources will fund the next phase and advance technologies in communications, landing systems, refining processes, and mineral recovery—crucial for subsequent missions.  
+  - The acquired resources will fund the next phase and advance technologies in communications, landing systems, refining processes, and mineral recovery—crucial for subsequent missions.  
 
   3. **Energy Recovery and Resource Transmission**  
 
-    - Deployment of drones to transport energy recovery equipment to asteroids.  
+  - Deployment of drones to transport energy recovery equipment to asteroids.  
 
-    - Collect solar energy and rare earth resources, transmitting them back to Earth to meet societal needs.  
+  - Collect solar energy and rare earth resources, transmitting them back to Earth to meet societal needs.  
 
-    - Ultimately, progress toward constructing a **Dyson bubble System** for the **100% recycling of solar energy**, unlocking limitless possibilities for humanity.  
+  - Ultimately, progress toward constructing a **Dyson bubble System** for the **100% recycling of solar energy**, unlocking limitless possibilities for humanity.  
 
 ---
 
