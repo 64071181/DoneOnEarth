@@ -60,7 +60,7 @@
      
   - Angel investors, venture capital firms, and technology incubators willing to support our mission with financial backing.  
 
-  3. **Corporate Partners**
+  2. **Corporate Partners**
      
   ### Companies specializing in the following domains:  
   
