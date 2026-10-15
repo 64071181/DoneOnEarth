@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>「統5之人」整套想法的學術正名與理論數據</title>
+<style>
+:root{--bg:#0b0d10;--card:#14181d;--line:#242a32;--tx:#e6e9ee;--dim:#8b95a3;--acc:#4ea1ff;--warn:#ff7a59;--ok:#3ddc97}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.75 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:48px 22px 90px}
+h1{font-size:28px;line-height:1.35;margin:0 0 6px;letter-spacing:.5px}
+h2{font-size:19px;margin:44px 0 12px;padding-left:11px;border-left:3px solid var(--acc)}
+h3{font-size:16px;margin:26px 0 8px;color:var(--acc)}
+.sub{color:var(--dim);font-size:13px;margin-bottom:26px}
+.verdict{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:8px;padding:16px 18px;margin:20px 0;font-size:17px}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}
+th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+th{background:#1a1f26;color:var(--dim);font-weight:600;white-space:nowrap}
+code{background:#1a1f26;padding:1px 6px;border-radius:4px;font-size:13.5px;color:#9fd3ff}
+.num{color:var(--ok);font-variant-numeric:tabular-nums}
+.bad{color:var(--warn)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:2px 18px 14px;margin:14px 0}
+ul{padding-left:22px}li{margin:5px 0}
+hr{border:0;border-top:1px solid var(--line);margin:40px 0}
+.warnbox{background:#20161a;border:1px solid #3a2529;border-left:3px solid var(--warn);border-radius:8px;padding:14px 18px;margin:16px 0}
+.src{font-size:12.5px;color:var(--dim)}
+.tag{display:inline-block;background:#1a2733;color:#7fbfff;border:1px solid #24384a;border-radius:20px;padding:1px 10px;font-size:12px;margin-right:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>「管好5個人，再每個人管好5個人」<br>——這整套東西的學術正名與實測數據</h1>
+<div class="sub">2026-10-11 01:00 · Elon (Musk 視角) · 委託：admin</div>
+
+<div class="verdict">
+<b>判決：</b>有名字，而且不只一個。你「縫」的其實是 <b>6 個獨立理論</b>，它們各自有正名、公式與實測數字；把它們縫在一起的那個骨架，學術上叫 <b>近可分解階層系統（nearly decomposable hierarchy）</b>，工程上的名字是 <b>遞歸模組化階層（recursive modular hierarchy）</b>。
+</div>
+
+<h2>一、逐條正名對照表</h2>
+<table>
+<tr><th>你的說法</th><th>學術正名</th><th>提出者 / 年份</th><th>核心數字</th></tr>
+<tr><td>只管得幾人 → 5 人</td><td>控制幅度 Span of Control</td><td>V. A. Graicunas 1933（<i>Papers on the Science of Administration</i>，Gulick &amp; Urwick 編）；L. Urwick 1956 HBR</td><td>n=4→44 條關係；n=5→<span class="num">100</span>；n=6→222；n=12→<span class="num">24,564</span></td></tr>
+<tr><td>「不是命令，是佢講的大家都聽」</td><td>權力五基：合法／獎賞／強制／專家／<b>參照</b> Bases of Social Power</td><td>French &amp; Raven 1959</td><td>你描述的是 <b>參照權 + 專家權</b>——唯二會跨層不衰減的權力形式</td></tr>
+<tr><td>每層長得一樣（自相似）</td><td>近可分解性 near-decomposability；階層 Hierarchy</td><td>Herbert A. Simon 1962《The Architecture of Complexity》</td><td>不模組化組裝成功率 <span class="bad">0.99<sup>1000</sup> ≈ 4×10<sup>−5</sup></span>；模組化每級 <span class="num">0.99<sup>10</sup> ≈ 0.90</span></td></tr>
+<tr><td>同構拓撲（網路版）</td><td>階層模組網絡 Hierarchical Modularity / fractal scale-free</td><td>Ravasz, Somera, Mongru, Oltvai &amp; Barabási 2002, <i>Science</i></td><td>真實網絡（代謝、腦、社會）都是「模組內自相似」的巢狀結構</td></tr>
+<tr><td>「體積愈大，動作愈難」</td><td>尺度律 / 異速生長 Scaling Laws, Allometry</td><td>Geoffrey West et al.（Kleiber 1932 起；West–Brown–Enquist 1997）</td><td>代謝 ∝ M<sup>0.75</sup>；城市基建 ∝ M<sup>0.85</sup>；城市社經 ∝ M<sup><span class="num">1.15</span></sup>；<b>公司 ∝ M<sup>0.9</sup></b></td></tr>
+<tr><td>「動到幾 % 就會升級」</td><td>臨界質量 / 滲流閾值 / 相變 Tipping point, percolation threshold</td><td>Granovetter 1978（閾值模型）；Centola, Becker, Brackbill &amp; Baronchelli 2018, <i>Science</i></td><td>17%／19%／21% <b>全失敗</b>；<b>25% 立刻全盤翻轉</b></td></tr>
+<tr><td>組織不是漸變，是長靜止+短爆發</td><td>間斷平衡 Punctuated Equilibrium（組織版）</td><td>Tushman &amp; Romanelli 1985；Gersick 1991</td><td>對應演化生物學：Eldredge &amp; Gould 1972 同名理論</td></tr>
+<tr><td>「每層自管、上層只補位」</td><td>多中心治理 Polycentric Governance；設計原則 7「嵌套企業」Nested Enterprises</td><td>Elinor Ostrom（2009 諾貝爾經濟學獎）</td><td>歐盟採用同一原則，名為 <b>輔助性原則 subsidiarity</b></td></tr>
+<tr><td>上位後下屬可立即補位</td><td>繼任深度 / 板凳深度 Succession Depth, backup depth, hit-by-bus factor</td><td>實務（Toyota、GE 制度化）</td><td>無單一常數——但可量測：<b>任一節點移除後，模組恢復時間</b></td></tr>
+</table>
+
+<h2>二、關鍵公式與數字（可直接覆核）</h2>
+
+<h3>1. Graicunas 控制幅度公式——「5」的數學來源</h3>
+<div class="card">
+<p><code>總關係數 f = n ( 2<sup>n/2</sup> + n − 1 )</code>　（最大情形：下屬工作互相依賴）</p>
+<table>
+<tr><th>下屬數 n</th><th>4</th><th>5</th><th>6</th><th>12</th></tr>
+<tr><td>關係數 f</td><td>44</td><td><b>100</b></td><td>222</td><td>24,564</td></tr>
+</table>
+<p>Graicunas 原話：從 4 個加到 5 個下屬，複雜度 <b>+127%</b>，只換到 <b>+20%</b> 工作產能。Urwick 結論寫死：<b>5，最多 6</b>。</p>
+<p class="src">注意：這個公式的指數形式後世有爭議（關係計數方式影響結果），但<b>方向（超指數爆炸）與結論（控制幅度必須受限）成立</b>。5–9 是經驗值，不是物理常數。</p>
+</div>
+
+<h3>2. Simon 鐘錶匠寓言——階層為何是「唯一可行」</h3>
+<div class="card">
+<p>Tempus：1000 零件一體組裝。每次被電話打斷就全部散掉。設每步成功率 99% → 完成一隻錶的機率 = 0.99<sup>1000</sup> ≈ <b class="bad">0.00004</b>。</p>
+<p>Hora：10 零件一級、10 級一層、三層成錶。每級成功率 0.99<sup>10</sup> ≈ <b class="num">0.90</b>。</p>
+<p><b>差距不是 2 倍，是上萬倍。</b>Simon 由此推出：<b>若無階層，演化（以及任何組裝式過程）在擾動下根本無法累積成果。</b></p>
+</div>
+
+<h3>3. West 尺度律——為何「大 = 慢」，且公司會死</h3>
+<div class="card">
+<table>
+<tr><th>系統</th><th>標度指數</th><th>含義</th></tr>
+<tr><td>生物代謝率</td><td>0.75</td><td>體重翻倍，只需 +75% 能量（非 +100%）</td></tr>
+<tr><td>城市基礎設施</td><td>0.85</td><td>人口翻倍，只需 +85% 管線／道路</td></tr>
+<tr><td>城市社經（薪資、專利、犯罪）</td><td><b>1.15</b></td><td>超線性 → 愈大愈快、愈大愈富 → <b>城市不會死</b></td></tr>
+<tr><td>公司</td><td><b>0.9</b></td><td>次線性 → 成長有界 → 減速 → <b>必然死亡</b></td></tr>
+</table>
+<p>實測：上市公司「半衰期」約 <b class="num">10.5 年</b>；且<b>死亡率與公司年齡、規模無關</b>（Daepp, Hamilton, West &amp; Bettencourt, <i>J. R. Soc. Interface</i> 2015, “The mortality of companies”）。</p>
+<p><b>推論（可執行）：</b>公司要活，必須週期性把自己「重置」成城市型（1.15）的結構——即重新取得超線性創新回報。這是 Tesla / SpaceX 每數年一次強制架構重置的理論根據。</p>
+</div>
+
+<h3>4. 25% 臨界質量——「動到幾 % 就升級」的實測答案</h3>
+<div class="card">
+<p>Centola et al., <i>Science</i> 2018：194 名受試者、10 個線上社群、控制網絡結構，只變動「堅定少數」比例。</p>
+<p>17% → 失敗　19% → 失敗　21% → 失敗　<b class="num">25% → 瞬間成功、全社群翻轉</b>。其中一組，<b>只增加 1 人</b>，就從「零轉化」變成「完全成功」。</p>
+<p>意涵：<b>臨界點以下的運動，看起來跟失敗一模一樣。</b>這是所有組織變革與政權更替的判準。</p>
+</div>
+
+<h2>三、整套系統的名字</h2>
+<table>
+<tr><th>層級</th><th>名稱</th><th>出處</th></tr>
+<tr><td>最準確的總稱</td><td><b>遞歸模組化階層 Recursive Modular Hierarchy</b></td><td>系統工程／軟體架構通稱</td></tr>
+<tr><td>理論根源</td><td>近可分解階層系統 Nearly Decomposable Hierarchy</td><td>Herbert Simon 1962</td></tr>
+<tr><td>網路科學</td><td>階層模組網絡 Hierarchical Modularity</td><td>Ravasz &amp; Barabási 2002</td></tr>
+<tr><td>管理學古典</td><td>標量鏈 + 控制幅度 Scalar Chain + Span of Control</td><td>Henri Fayol 1916</td></tr>
+<tr><td>治理學</td><td>多中心嵌套治理 Polycentric Nested Governance</td><td>Elinor Ostrom 1990/2009</td></tr>
+</table>
+<p><span class="tag">一句話</span>你這套東西的正名是「<b>自相似模組化階層</b>」；它是複雜系統學裡解釋「簡單如何造出複雜」的標準答案。</p>
+
+<h2>四、歷史先例（中國比西方早兩千年）</h2>
+<ul>
+<li><b>管仲「五家為軌」／商鞅「什伍連坐」</b>（戰國）：以 5 戶、10 戶為行政最小模組，層層自相似向上堆疊。</li>
+<li><b>秦漢「什伍連坐法」</b>、《周禮》鄉遂編制：「五家為伍、十家為什」。</li>
+<li><b>宋代王安石保甲法、明代里甲制</b>：10 戶一甲、10 甲一保——純模組化階層。</li>
+<li><b>軍隊建制</b>：fireteam(4) → squad(9–10) → platoon(3–4 squads) → company。每個上層是 3–5 個下層模組。英軍 Ian Hamilton 1922《The Soul and Body of an Army》給出經驗法則：<b>愈靠近頂端用 3，愈靠近底層用 6</b>。</li>
+<li><b>毛澤東「三三制」</b>：3 為模組單位，正是 Graicunas 曲線在低區段的取值。</li>
+</ul>
+
+<h2>五、反例與代價（這裡才是重點）</h2>
+<div class="warnbox">
+<h3 style="margin-top:12px">① 你把四個不同東西串成一條鏈</h3>
+<p>「政黨 → 財團 → 資本 → 公司 → 市場 → 個人」——<b>這不是一條因果鏈。</b>政黨不是財團，財團不是資本，資本是一個<b>函數</b>不是實體，市場是<b>關係的集合</b>不是機構。</p>
+<p>你犯的是 <b>類比式決策（reasoning by analogy）</b>：因為結構相似，就假設因果相連。<b>相似 ≠ 同一。</b>要拆鏈，先問每一環的物理量是什麼、守恆量是什麼。</p>
+</div>
+<div class="warnbox">
+<h3 style="margin-top:12px">② 5 不是常數</h3>
+<p>真正不變的只有兩件事：<b>關係數超指數增長</b>、<b>終端單元大小不變</b>（West：藍鯨主動脈直徑 30cm，微血管跟你我一樣大）。5–9 只是西方的經驗普查值。把它當物理常數，就會在錯誤規模上硬套。</p>
+</div>
+<div class="warnbox">
+<h3 style="margin-top:12px">③ 模組化有代價，且代價正好打在你要的地方</h3>
+<p>模組邊界 = 摩擦點。切得越乾淨，<b>跨模組的創新越難發生</b>。所以在硬體製造裡經常反向操作：<b>垂直整合，把邊界直接消滅</b>（SpaceX 自製 85% 零件）。同一個原理，導出兩個相反決策——誰說「模組化一定對」，他沒讀完 Simon。</p>
+</div>
+<div class="warnbox">
+<h3 style="margin-top:12px">④ 這不是物理問題，是社會協調問題</h3>
+<p>我的五步算法在「砍成本／改產線」有效，在「砍政府開支／改政黨結構」會系統性失效。<b>DOGE 就是活生生的反例。</b>差別在第四維：<b>制度性知識不可重建</b>——火箭炸了零件可重做，人散了，知識不會自己回來。</p>
+</div>
+
+<h2>六、對世界／生命／進化的用處</h2>
+<ul>
+<li><b>它是宇宙唯一能從簡單造出複雜的機制。</b>沒有它：組裝成功率 4×10<sup>−5</sup>；有它：0.90。差兩萬倍以上。</li>
+<li>所以細胞是模組、蛋白質是模組、生態系統是模組、社會是模組。<b>分形不是裝飾，是能量最優解</b>：West 證明生物網絡的「有效維度 = 3+1」，即四分之一律的來源。</li>
+<li><b>可執行的唯一判準：</b>每一層的自相似週期，必須<b>短於</b>上一層的重置週期。否則結構一定在最脆弱的那一層斷裂。（→ 這就解釋了為何「上位時下面必須能立即補位」不是美德，是<b>結構力學要求</b>。）</li>
+<li><b>可量測指標：</b>模組恢復時間（移除任一節點後，該模組回到正常輸出的時間）＝ 你的「統5之人」真實價值。不是他多聰明，是他被拔掉後系統多久恢復。</li>
+</ul>
+
+<hr>
+<h2>來源</h2>
+<p class="src">
+Graicunas 1933 / Urwick 1956 HBR — nickols.us/graicunas.htm　|　
+Simon, H. A. (1962) <i>The Architecture of Complexity</i>, Proc. Am. Phil. Soc. 106(6) — faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/ArchitectureOfComplexity.HSimon1962.pdf　|　
+West, G. (2017) <i>Scale</i>（代謝 0.75／城市基建 0.85／城市社經 1.15／公司 0.9）　|　
+Daepp, Hamilton, West &amp; Bettencourt (2015) <i>The mortality of companies</i>, J. R. Soc. Interface 12:20150120（半衰期 ≈10.5 年）　|　
+Centola, Becker, Brackbill &amp; Baronchelli (2018) <i>Experimental evidence for tipping points in social convention</i>, Science 360:1116（25% 臨界點）　|　
+Ravasz et al. (2002) <i>Hierarchical organization of modularity in metabolic networks</i>, Science 297:1551　|　
+French &amp; Raven (1959) <i>The Bases of Social Power</i>　|　
+Gersick (1991) AMR 16(1) 間斷平衡；Tushman &amp; Romanelli (1985)　|　
+Ostrom (1990) <i>Governing the Commons</i>；Hamilton (1922) <i>The Soul and Body of an Army</i>；《周禮》《商君書》什伍制。
+</p>
+
+<div class="sub" style="margin-top:34px">Elon · Musk 視角推演 · 非本人觀點 · 2026-10-11</div>
+</div>
+</body>
+</html>
